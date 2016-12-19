@@ -7,7 +7,8 @@
     "fast": "mocha --slow 1000 test/",
     "pretest": "jshint index.js lib/ test/",
     "test": "istanbul cover -x 'docs/**' --include-all-sources --print=both node_modules/mocha/bin/_mocha -- --slow 2000 -t 10000 test/",
-    "xposttest": "istanbul check-coverage --statements 95 --branches 80"
+    "xposttest": "istanbul check-coverage --statements 95 --branches 80",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,8 @@
     "jshint": "^2.8.0",
     "memory-streams": "^0.1.0",
     "mocha": "^3.1.2",
-    "rimraf": "^2.4.3"
+    "rimraf": "^2.4.3",
+    "standard-version": "^4.0.0"
   },
   "dependencies": {
     "async": "^2.1.4",
