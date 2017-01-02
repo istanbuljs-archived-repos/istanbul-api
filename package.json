@@ -35,7 +35,7 @@
     "standard-version": "^4.0.0"
   },
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "^2.1.2",
     "fileset": "^2.0.2",
     "istanbul-lib-coverage": "^1.0.0",
     "istanbul-lib-hook": "^1.0.0-alpha.4",
