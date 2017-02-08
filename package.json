@@ -3,6 +3,10 @@
   "version": "1.1.1",
   "description": "High level API for istanbul features",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
     "fast": "mocha --slow 1000 test/",
     "pretest": "jshint index.js lib/ test/",
